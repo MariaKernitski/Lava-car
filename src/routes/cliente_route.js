@@ -1,7 +1,7 @@
 /* Definir os serviços que sua aplicação vai ter */
 
 import { Router } from "express";
-import { destroy, index, show, store, update } from "../controllers/cliente_controller";
+import { destroy, index, show, store, update } from "../controllers/cliente_controller.js";
 
 const router = Router();
 

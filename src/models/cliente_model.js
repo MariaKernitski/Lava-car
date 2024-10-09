@@ -23,3 +23,5 @@ const ClienteSchema = new Schema ({
 })
 
 const Cliente = model("Cliente", ClienteSchema);
+
+export default Cliente;
